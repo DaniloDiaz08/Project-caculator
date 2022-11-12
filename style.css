@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 1%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(rgb(2, 238, 255), white);
+}
+
+.container{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px 10px 0px 10px;
+    background-color: rgb(27, 151, 145);
+}
+
+.body-calculradora{
+    width: 384px;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);   
+    border-radius: 12px;
+}
+
+#resultado{
+    width: 384px;
+    height: 96px;
+    outline: 0;
+    border-radius: 15px 15px 0px 0px;
+    padding: 0px 20px 0px 20px;
+    font-size: 24px;
+    
+}
+
+.num-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(177, 175, 175);
+}
+
+.num-container-2{
+    width: 100%;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(177, 175, 175);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.s-button{
+    width: 64px;
+    height: 64px;
+    background-color: rgb(104, 253, 246);
+    border-radius: 10%;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.s-button-2{
+    width: 144px;
+    height: 64px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color:  rgb(104, 253, 246);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+   
+}
