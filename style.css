@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Estilos de destokp */
 body{
     margin-top: 1%;
     width: 100%;
@@ -17,7 +18,7 @@ body{
 .container{
     border: 3px solid black;
     border-radius: 20px;
-    padding: 10px 10px 0px 10px;
+    padding: 5px 5px 0px 5px;
     background-color: rgb(27, 151, 145);
 }
 
@@ -85,48 +86,66 @@ body{
     cursor: pointer;
 }
 
-@media (max-width:400px) {
-    body{
-        margin-top: 18%;
-    }
-    
-    .container{
-       height: 790px;
-    }
+.dark{ 
+    background:#1b1b1b;
+    color: #d8e3f6;
+  }
 
-    #resultado{
-        width: 355px;
-        height: 250px; 
-        font-size: 80px;  
-    }
-
-    .num-container{
-        width: 355px;
-        height: 110px;
-    }
-
-    .num-container-2{
-        width: 355px;
-        height: 65px;
-    }
-
-    .s-button{
-        width: 65px;
-        height: 55px;
-        border-radius: 30%;
-        font-size: 35px;
-    }
-
-    .s-button-2{
-        width: 100px;
-        height: 55px;
-        border-radius: 20px;
-        font-size: 24px;
-    }
-
-}
-
-@media (min-width:800px){
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    --background: #28096b;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    transition: .5;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.3em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 10px -5px 0px 0px #000;
+    background: rgb(255, 255, 255);
+    transition: .5s;
+  }
+  
+  input:checked + .slider {
+    background-color:  rgb(139, 139, 139);
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 15px -4px 0px 15px #565758;
+  }
+/* 
+ @media screen (max-width:800px){
     body{
         margin-top: 20%;
     }
@@ -167,4 +186,45 @@ body{
         border-radius: 15px;
         font-size: 35px;
     }
-}
+} 
+
+@media screen (max-width:400px) {
+    body{
+        margin-top: 18%;
+    }
+    
+    .container{
+      
+    }
+
+    #resultado{
+        width: 355px;
+        height: 250px; 
+        font-size: 80px;  
+    }
+
+    .num-container{
+        width: 355px;
+        height: 110px;
+    }
+
+    .num-container-2{
+        width: 355px;
+        height: 65px;
+    }
+
+    .s-button{
+        width: 65px;
+        height: 55px;
+        border-radius: 30%;
+        font-size: 35px;
+    }
+
+    .s-button-2{
+        width: 100px;
+        height: 55px;
+        border-radius: 20px;
+        font-size: 24px;
+    }
+
+} */

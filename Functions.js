@@ -1,3 +1,4 @@
+//Funciones calculadora
 function numeros(valor) {
     document.getElementById("resultado").value += valor;
 }
@@ -13,4 +14,10 @@ function operacion(){
 
 function resetear(){
     document.getElementById("resultado").value = " ";
+}
+
+/* modo dia-noche */ 
+function cambiarModo() { 
+    var cuerpoweb = document.body; 
+    cuerpoweb.classList.toggle("dark"); 
 }
