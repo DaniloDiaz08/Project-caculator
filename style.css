@@ -126,7 +126,7 @@ body{
 
 }
 
-@media (min-width:900px){
+@media (min-width:800px){
     body{
         margin-top: 20%;
     }
