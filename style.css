@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    background: linear-gradient(rgb(2, 238, 255), white);
+    background: linear-gradient(90deg, rgb(2, 238, 255), white);
 }
 
 .container{
@@ -144,6 +144,7 @@ body{
     transform: translateX(100%);
     box-shadow: inset 15px -4px 0px 15px #565758;
   }
+  
 /* 
  @media screen (max-width:800px){
     body{
