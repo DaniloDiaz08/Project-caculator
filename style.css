@@ -85,7 +85,7 @@ body{
     cursor: pointer;
 }
 
-@media (min-width:400px) {
+@media (max-width:400px) {
     body{
         margin-top: 18%;
     }
@@ -126,7 +126,7 @@ body{
 
 }
 
-@media (max-width:900px){
+@media (min-width:900px){
     body{
         margin-top: 20%;
     }
