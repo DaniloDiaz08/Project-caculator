@@ -85,7 +85,7 @@ body{
     cursor: pointer;
 }
 
-@media (max-width:400px) {
+@media (min-width:400px) {
     body{
         margin-top: 18%;
     }
@@ -132,7 +132,7 @@ body{
     }
     
     .container{
-       height: 95%;
+       height: 85%;
        margin-left: 5%;
        margin-right: 5%;
     }
