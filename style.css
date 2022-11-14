@@ -123,4 +123,48 @@ body{
         border-radius: 20px;
         font-size: 24px;
     }
+
+}
+
+@media (max-width:900px){
+    body{
+        margin-top: 20%;
+    }
+    
+    .container{
+       height: 95%;
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+
+    #resultado{
+        width: 700px;
+        height: 300px; 
+        font-size: 90px;  
+    }
+
+    .num-container{
+        width: 700px;
+        height: 145px;
+    }
+
+    .num-container-2{
+        width: 700px;
+        height: 60px;
+    }
+
+    .s-button{
+        width: 20%;
+        height: 64%;
+        border-radius: 20%;
+        font-size: 45px;
+        
+    }
+
+    .s-button-2{
+        width: 500px;
+        height: 55px;
+        border-radius: 15px;
+        font-size: 35px;
+    }
 }
